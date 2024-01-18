@@ -96,6 +96,6 @@ def write_version_file(target_dir: str) -> pathlib.Path:
 
 
 if __name__ == "__main__":
-    print(f"{get_tag_commit()=}")
-    print(f"{pupil_version_string()=}")
-    print(f"{pupil_version()=}")
+    print(f"{get_tag_commit()}")
+    print(f"{pupil_version_string()}")
+    print(f"{pupil_version()}")
